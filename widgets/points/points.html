@@ -1,0 +1,16 @@
+<h1 class="title" data-bind="title"></h1>
+
+<h3 class="text" data-bind="text | raw"></h3>
+
+<div class="players-container">
+	<ul>
+	  <li data-foreach-item="items">
+	  	<img data-bind-src="item.value"/>
+	    <span class="label" data-bind="item.label"></span>
+	  </li>
+	</ul>
+</div>
+<!--
+<p class="more-info" data-bind="moreinfo | raw"></p>
+-->
+<p class="updated-at" data-bind="updatedAtMessage"></p>

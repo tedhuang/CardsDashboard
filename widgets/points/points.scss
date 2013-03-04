@@ -1,0 +1,50 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #ec663c;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$text-size:         225px;
+
+// ----------------------------------------------------------------------------
+// Widget-text styles
+// ----------------------------------------------------------------------------
+.widget-points {
+
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  h3.text{
+    font-size: $text-size;
+  }
+
+  &.large h3 {
+    font-size: 65px;
+  }
+
+  .players-container li{
+    display: inline-block;
+    padding-top: 30px;
+  }
+
+  .players-container span{
+    display:block;
+  }
+
+  .players-container img{
+    margin: 15px;
+    width: 80px;
+  }
+}

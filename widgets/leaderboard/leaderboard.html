@@ -16,6 +16,15 @@
   </li>
 </ul>
 -->
-	<h1 class="title" data-bind="title"></h1>
-<iframe src="http://24.84.176.102:8888/PointsTracker/iframeLeaderboard" height=100% 
-width=100% seamless="true" ></iframe>
+
+<script>
+
+setInterval(function(){
+  document.getElementById('iframe').src = document.getElementById('iframe').src
+}, 60000);
+
+</script>
+
+<h1 class="title" data-bind="title"></h1>
+<iframe src="http://www.tedxhuang.com/cards/PointsTracker/iframeLeaderboard" height=100% 
+width=100% seamless="true" id="iframe" ></iframe>
